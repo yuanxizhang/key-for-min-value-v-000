@@ -3,7 +3,5 @@
 
 def key_for_min_value(name_hash)
   name, age = name_hash.sort_by { |name, age| age }.first
-  name 
-  
-
+  return name 
 end
